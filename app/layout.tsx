@@ -7,7 +7,7 @@ const RootLayout:FC<PropsWithChildren> = ({children}) => {
     return (
         <div>
             <html>
-            <body className={`${roboto.className} bg-slate-500`}>
+            <body className={`${roboto.className} antialiased`}>
                 {children}
             </body>
             </html>

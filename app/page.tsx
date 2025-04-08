@@ -1,12 +1,13 @@
-import React from 'react';
-
+import { FaReact } from "react-icons/fa";
+import { bebasNeue } from "./ui/font";
+import Header from "./components/Header";
 
 const Home = () => {
     return (
-        <div className="primary_text">
-           <h1>Hola Mundo</h1> 
-           <p className='p-10 text-white'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt corporis ipsa provident voluptatem laborum magni voluptate asperiores, voluptas atque excepturi, eum libero, inventore totam enim obcaecati. Laboriosam vero soluta delectus!</p>
-        </div>
+        <main className="flex min-h-screen flex-col">
+            <Header />
+
+        </main>
     );
 };
 
